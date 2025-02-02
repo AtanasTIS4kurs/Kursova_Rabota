@@ -1,0 +1,290 @@
+2025-02-02 10:37:20.495 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-02-02 10:37:20.545 +02:00 [INF] Now listening on: https://localhost:7017
+2025-02-02 10:37:20.547 +02:00 [INF] Now listening on: http://localhost:5197
+2025-02-02 10:37:20.575 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 10:37:20.575 +02:00 [INF] Hosting environment: Development
+2025-02-02 10:37:20.576 +02:00 [INF] Content root path: C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore
+2025-02-02 10:37:21.658 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger - null null
+2025-02-02 10:37:21.753 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger - 301 0 null 99.8695ms
+2025-02-02 10:37:21.763 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/index.html - null null
+2025-02-02 10:37:21.804 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/index.html - 200 null text/html;charset=utf-8 40.7984ms
+2025-02-02 10:37:21.809 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - null null
+2025-02-02 10:37:21.812 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 10:37:21.812 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - null null
+2025-02-02 10:37:21.812 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-02 10:37:21.813 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - null null
+2025-02-02 10:37:21.818 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 6.0935ms
+2025-02-02 10:37:21.832 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-02 10:37:21.832 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-02 10:37:21.836 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - 200 152034 text/css 26.72ms
+2025-02-02 10:37:21.835 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 23.7241ms
+2025-02-02 10:37:21.839 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-02 10:37:21.841 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 29.159ms
+2025-02-02 10:37:21.876 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.1057ms
+2025-02-02 10:37:21.957 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - null null
+2025-02-02 10:37:22.023 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 66.7862ms
+2025-02-02 10:37:26.884 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/Companies/GetALL - null null
+2025-02-02 10:37:26.891 +02:00 [INF] Executing endpoint 'GameStore.Controllers.CompaniesController.GetAll (GameStore)'
+2025-02-02 10:37:26.901 +02:00 [INF] Route matched with {action = "GetAll", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller GameStore.Controllers.CompaniesController (GameStore).
+2025-02-02 10:37:27.810 +02:00 [INF] Getting all companies from database
+2025-02-02 10:37:27.813 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[GameStore.Models.DTO.Company, GameStore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-02 10:37:27.819 +02:00 [INF] Executed action GameStore.Controllers.CompaniesController.GetAll (GameStore) in 915.0317ms
+2025-02-02 10:37:27.820 +02:00 [INF] Executed endpoint 'GameStore.Controllers.CompaniesController.GetAll (GameStore)'
+2025-02-02 10:37:27.821 +02:00 [INF] HTTP GET /Companies/GetALL responded 200 in 933.4927 ms
+2025-02-02 10:37:27.822 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/Companies/GetALL - 200 null application/json; charset=utf-8 937.941ms
+2025-02-02 10:37:41.107 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/Games/GetALL - null null
+2025-02-02 10:37:41.109 +02:00 [INF] Executing endpoint 'GameStore.Controllers.GamesController.GetAll (GameStore)'
+2025-02-02 10:37:41.111 +02:00 [INF] Route matched with {action = "GetAll", controller = "Games"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller GameStore.Controllers.GamesController (GameStore).
+2025-02-02 10:37:41.162 +02:00 [INF] Getting all games from database
+2025-02-02 10:37:41.163 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[GameStore.Models.DTO.Game, GameStore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-02 10:37:41.167 +02:00 [INF] Executed action GameStore.Controllers.GamesController.GetAll (GameStore) in 54.1724ms
+2025-02-02 10:37:41.167 +02:00 [INF] Executed endpoint 'GameStore.Controllers.GamesController.GetAll (GameStore)'
+2025-02-02 10:37:41.168 +02:00 [INF] HTTP GET /Games/GetALL responded 200 in 58.8605 ms
+2025-02-02 10:37:41.169 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/Games/GetALL - 200 null application/json; charset=utf-8 61.4934ms
+2025-02-02 10:38:01.898 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/Companies/GetbyId?id=679a4fee4e86030726d2644d - null null
+2025-02-02 10:38:01.900 +02:00 [INF] Executing endpoint 'GameStore.Controllers.CompaniesController.GetById (GameStore)'
+2025-02-02 10:38:01.905 +02:00 [INF] Route matched with {action = "GetById", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[GameStore.Models.DTO.Company] GetById(System.String) on controller GameStore.Controllers.CompaniesController (GameStore).
+2025-02-02 10:38:01.981 +02:00 [ERR] Company with id:679a4fee4e86030726d2644d not found
+2025-02-02 10:38:01.983 +02:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 10:38:01.984 +02:00 [INF] Executed action GameStore.Controllers.CompaniesController.GetById (GameStore) in 77.9854ms
+2025-02-02 10:38:01.985 +02:00 [INF] Executed endpoint 'GameStore.Controllers.CompaniesController.GetById (GameStore)'
+2025-02-02 10:38:01.985 +02:00 [INF] HTTP GET /Companies/GetbyId responded 404 in 85.6601 ms
+2025-02-02 10:38:01.986 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/Companies/GetbyId?id=679a4fee4e86030726d2644d - 404 null application/json; charset=utf-8 88.4318ms
+2025-02-02 10:38:05.252 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/Companies/GetbyId?id=5 - null null
+2025-02-02 10:38:05.253 +02:00 [INF] Executing endpoint 'GameStore.Controllers.CompaniesController.GetById (GameStore)'
+2025-02-02 10:38:05.254 +02:00 [INF] Route matched with {action = "GetById", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[GameStore.Models.DTO.Company] GetById(System.String) on controller GameStore.Controllers.CompaniesController (GameStore).
+2025-02-02 10:38:05.256 +02:00 [ERR] The provided id must be a 24-digit hexadecimal string.
+2025-02-02 10:38:05.257 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 10:38:05.258 +02:00 [INF] Executed action GameStore.Controllers.CompaniesController.GetById (GameStore) in 3.2096ms
+2025-02-02 10:38:05.258 +02:00 [INF] Executed endpoint 'GameStore.Controllers.CompaniesController.GetById (GameStore)'
+2025-02-02 10:38:05.259 +02:00 [INF] HTTP GET /Companies/GetbyId responded 400 in 5.8261 ms
+2025-02-02 10:38:05.260 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/Companies/GetbyId?id=5 - 400 null application/json; charset=utf-8 7.9802ms
+2025-02-02 10:39:45.269 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7017/Companies/Create - application/json 82
+2025-02-02 10:39:45.271 +02:00 [INF] Executing endpoint 'GameStore.Controllers.CompaniesController.Create (GameStore)'
+2025-02-02 10:39:45.272 +02:00 [INF] Route matched with {action = "Create", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(GameStore.Models.DTO.Company) on controller GameStore.Controllers.CompaniesController (GameStore).
+2025-02-02 10:39:45.304 +02:00 [INF] Creating game with id:2fd1dfe574235b18195c3423 in database
+2025-02-02 10:44:51.986 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-02-02 10:44:52.062 +02:00 [INF] Now listening on: https://localhost:7017
+2025-02-02 10:44:52.063 +02:00 [INF] Now listening on: http://localhost:5197
+2025-02-02 10:44:52.097 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 10:44:52.098 +02:00 [INF] Hosting environment: Development
+2025-02-02 10:44:52.098 +02:00 [INF] Content root path: C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore
+2025-02-02 10:44:52.381 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger - null null
+2025-02-02 10:44:52.454 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger - 301 0 null 75.8911ms
+2025-02-02 10:44:52.462 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/index.html - null null
+2025-02-02 10:44:52.510 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/index.html - 200 null text/html;charset=utf-8 47.882ms
+2025-02-02 10:44:52.514 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - null null
+2025-02-02 10:44:52.523 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-02 10:44:52.524 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - null null
+2025-02-02 10:44:52.524 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-02 10:44:52.529 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 10:44:52.527 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - null null
+2025-02-02 10:44:52.536 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-02 10:44:52.525 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - 200 152034 text/css 11.7194ms
+2025-02-02 10:44:52.541 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 13.2816ms
+2025-02-02 10:44:52.539 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 14.6586ms
+2025-02-02 10:44:52.547 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-02 10:44:52.549 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 24.2404ms
+2025-02-02 10:44:52.563 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.4281ms
+2025-02-02 10:44:52.655 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - null null
+2025-02-02 10:44:52.713 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.5842ms
+2025-02-02 10:45:02.098 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/Games/GetALL - null null
+2025-02-02 10:45:02.104 +02:00 [INF] Executing endpoint 'GameStore.Controllers.GamesController.GetAll (GameStore)'
+2025-02-02 10:45:02.113 +02:00 [INF] Route matched with {action = "GetAll", controller = "Games"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller GameStore.Controllers.GamesController (GameStore).
+2025-02-02 10:45:02.836 +02:00 [INF] Getting all games from database
+2025-02-02 10:45:02.838 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[GameStore.Models.DTO.Game, GameStore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-02 10:45:02.845 +02:00 [INF] Executed action GameStore.Controllers.GamesController.GetAll (GameStore) in 729.0102ms
+2025-02-02 10:45:02.845 +02:00 [INF] Executed endpoint 'GameStore.Controllers.GamesController.GetAll (GameStore)'
+2025-02-02 10:45:02.847 +02:00 [INF] HTTP GET /Games/GetALL responded 200 in 745.0753 ms
+2025-02-02 10:45:02.848 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/Games/GetALL - 200 null application/json; charset=utf-8 749.9979ms
+2025-02-02 10:45:30.407 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7017/Games/Create - application/json 100
+2025-02-02 10:45:30.410 +02:00 [INF] Executing endpoint 'GameStore.Controllers.GamesController.Create (GameStore)'
+2025-02-02 10:45:30.415 +02:00 [INF] Route matched with {action = "Create", controller = "Games"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(GameStore.Models.DTO.Game) on controller GameStore.Controllers.GamesController (GameStore).
+2025-02-02 10:45:30.490 +02:00 [ERR] Game creation failed. Game with id:1b00d1b193e47c19cfb29083 is already in use.
+2025-02-02 10:45:30.491 +02:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 10:45:30.493 +02:00 [INF] Executed action GameStore.Controllers.GamesController.Create (GameStore) in 76.9235ms
+2025-02-02 10:45:30.493 +02:00 [INF] Executed endpoint 'GameStore.Controllers.GamesController.Create (GameStore)'
+2025-02-02 10:45:30.494 +02:00 [INF] HTTP POST /Games/Create responded 409 in 83.9077 ms
+2025-02-02 10:45:30.494 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7017/Games/Create - 409 null application/json; charset=utf-8 87.0345ms
+2025-02-02 10:45:38.232 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7017/Games/Create - application/json 77
+2025-02-02 10:45:38.233 +02:00 [INF] Executing endpoint 'GameStore.Controllers.GamesController.Create (GameStore)'
+2025-02-02 10:45:38.234 +02:00 [INF] Route matched with {action = "Create", controller = "Games"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(GameStore.Models.DTO.Game) on controller GameStore.Controllers.GamesController (GameStore).
+2025-02-02 10:45:38.237 +02:00 [ERR] The provided id must be a 24-digit hexadecimal string.
+2025-02-02 10:45:38.237 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 10:45:38.238 +02:00 [INF] Executed action GameStore.Controllers.GamesController.Create (GameStore) in 3.1665ms
+2025-02-02 10:45:38.238 +02:00 [INF] Executed endpoint 'GameStore.Controllers.GamesController.Create (GameStore)'
+2025-02-02 10:45:38.239 +02:00 [INF] HTTP POST /Games/Create responded 400 in 5.9779 ms
+2025-02-02 10:45:38.240 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7017/Games/Create - 400 null application/json; charset=utf-8 8.3639ms
+2025-02-02 10:48:34.877 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-02-02 10:48:34.936 +02:00 [INF] Now listening on: https://localhost:7017
+2025-02-02 10:48:34.938 +02:00 [INF] Now listening on: http://localhost:5197
+2025-02-02 10:48:34.967 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 10:48:34.968 +02:00 [INF] Hosting environment: Development
+2025-02-02 10:48:34.968 +02:00 [INF] Content root path: C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore
+2025-02-02 10:48:35.298 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger - null null
+2025-02-02 10:48:35.371 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger - 301 0 null 75.8464ms
+2025-02-02 10:48:35.379 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/index.html - null null
+2025-02-02 10:48:35.424 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/index.html - 200 null text/html;charset=utf-8 44.9848ms
+2025-02-02 10:48:35.448 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - null null
+2025-02-02 10:48:35.449 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - null null
+2025-02-02 10:48:35.450 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - null null
+2025-02-02 10:48:35.449 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 10:48:35.449 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-02 10:48:35.472 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 22.2305ms
+2025-02-02 10:48:35.478 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-02 10:48:35.478 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-02 10:48:35.482 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 32.3712ms
+2025-02-02 10:48:35.482 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - 200 152034 text/css 34.0749ms
+2025-02-02 10:48:35.483 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-02 10:48:35.486 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 36.6631ms
+2025-02-02 10:48:35.495 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.0609ms
+2025-02-02 10:48:35.600 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - null null
+2025-02-02 10:48:35.660 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.0149ms
+2025-02-02 10:48:53.899 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/Companies/GetALL - null null
+2025-02-02 10:48:53.904 +02:00 [INF] Executing endpoint 'GameStore.Controllers.CompaniesController.GetAll (GameStore)'
+2025-02-02 10:48:53.913 +02:00 [INF] Route matched with {action = "GetAll", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller GameStore.Controllers.CompaniesController (GameStore).
+2025-02-02 10:48:54.636 +02:00 [INF] Getting all companies from database
+2025-02-02 10:48:54.638 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[GameStore.Models.DTO.Company, GameStore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-02 10:48:54.643 +02:00 [INF] Executed action GameStore.Controllers.CompaniesController.GetAll (GameStore) in 728.2941ms
+2025-02-02 10:48:54.644 +02:00 [INF] Executed endpoint 'GameStore.Controllers.CompaniesController.GetAll (GameStore)'
+2025-02-02 10:48:54.646 +02:00 [INF] HTTP GET /Companies/GetALL responded 200 in 742.6399 ms
+2025-02-02 10:48:54.646 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/Companies/GetALL - 200 null application/json; charset=utf-8 747.7941ms
+2025-02-02 10:49:41.970 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7017/Companies/Create - application/json 81
+2025-02-02 10:49:41.972 +02:00 [INF] Executing endpoint 'GameStore.Controllers.CompaniesController.Create (GameStore)'
+2025-02-02 10:49:41.977 +02:00 [INF] Route matched with {action = "Create", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(GameStore.Models.DTO.Company) on controller GameStore.Controllers.CompaniesController (GameStore).
+2025-02-02 10:49:42.052 +02:00 [ERR] Game creation failed. Game with id:2fd1dfe574235b18195c3423 is already in use.
+2025-02-02 10:49:42.052 +02:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 10:49:42.054 +02:00 [INF] Executed action GameStore.Controllers.CompaniesController.Create (GameStore) in 75.9085ms
+2025-02-02 10:49:42.054 +02:00 [INF] Executed endpoint 'GameStore.Controllers.CompaniesController.Create (GameStore)'
+2025-02-02 10:49:42.055 +02:00 [INF] HTTP POST /Companies/Create responded 409 in 82.3542 ms
+2025-02-02 10:49:42.055 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7017/Companies/Create - 409 null application/json; charset=utf-8 85.2392ms
+2025-02-02 10:52:26.905 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-02-02 10:52:26.959 +02:00 [INF] Now listening on: https://localhost:7017
+2025-02-02 10:52:26.960 +02:00 [INF] Now listening on: http://localhost:5197
+2025-02-02 10:52:26.991 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 10:52:26.992 +02:00 [INF] Hosting environment: Development
+2025-02-02 10:52:26.992 +02:00 [INF] Content root path: C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore
+2025-02-02 10:52:27.328 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger - null null
+2025-02-02 10:52:27.403 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger - 301 0 null 77.3047ms
+2025-02-02 10:52:27.410 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/index.html - null null
+2025-02-02 10:52:27.455 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/index.html - 200 null text/html;charset=utf-8 44.3704ms
+2025-02-02 10:52:27.465 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - null null
+2025-02-02 10:52:27.474 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 10:52:27.474 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - null null
+2025-02-02 10:52:27.474 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - null null
+2025-02-02 10:52:27.474 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-02 10:52:27.477 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-02 10:52:27.485 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 11.5926ms
+2025-02-02 10:52:27.488 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - 200 152034 text/css 23.0664ms
+2025-02-02 10:52:27.489 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-02 10:52:27.494 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 20.3255ms
+2025-02-02 10:52:27.496 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-02 10:52:27.499 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 25.7598ms
+2025-02-02 10:52:27.524 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.5761ms
+2025-02-02 10:52:27.627 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - null null
+2025-02-02 10:52:27.684 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.923ms
+2025-02-02 11:02:27.620 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-02-02 11:02:27.677 +02:00 [INF] Now listening on: https://localhost:7017
+2025-02-02 11:02:27.678 +02:00 [INF] Now listening on: http://localhost:5197
+2025-02-02 11:02:27.708 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 11:02:27.709 +02:00 [INF] Hosting environment: Development
+2025-02-02 11:02:27.710 +02:00 [INF] Content root path: C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore
+2025-02-02 11:02:28.014 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger - null null
+2025-02-02 11:02:28.094 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger - 301 0 null 83.1674ms
+2025-02-02 11:02:28.102 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/index.html - null null
+2025-02-02 11:02:28.148 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/index.html - 200 null text/html;charset=utf-8 45.8997ms
+2025-02-02 11:02:28.156 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - null null
+2025-02-02 11:02:28.171 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - null null
+2025-02-02 11:02:28.173 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-02 11:02:28.176 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - null null
+2025-02-02 11:02:28.175 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-02 11:02:28.184 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-02 11:02:28.173 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 11:02:28.188 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 15.7ms
+2025-02-02 11:02:28.188 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - 200 152034 text/css 32.2492ms
+2025-02-02 11:02:28.201 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 28.6396ms
+2025-02-02 11:02:28.203 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-02 11:02:28.205 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 33.5523ms
+2025-02-02 11:02:28.218 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.386ms
+2025-02-02 11:02:28.306 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - null null
+2025-02-02 11:02:28.368 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.9066ms
+2025-02-02 11:03:18.922 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7017/Games/Create - application/json 100
+2025-02-02 11:03:18.930 +02:00 [INF] Executing endpoint 'GameStore.Controllers.GamesController.Create (GameStore)'
+2025-02-02 11:03:18.944 +02:00 [INF] Route matched with {action = "Create", controller = "Games"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(GameStore.Models.DTO.Game) on controller GameStore.Controllers.GamesController (GameStore).
+2025-02-02 11:03:19.679 +02:00 [ERR] Game creation failed. Game can't have a negative or no price
+2025-02-02 11:03:19.681 +02:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 11:03:19.686 +02:00 [INF] Executed action GameStore.Controllers.GamesController.Create (GameStore) in 737.9712ms
+2025-02-02 11:03:19.686 +02:00 [INF] Executed endpoint 'GameStore.Controllers.GamesController.Create (GameStore)'
+2025-02-02 11:03:19.690 +02:00 [INF] HTTP POST /Games/Create responded 409 in 759.3659 ms
+2025-02-02 11:03:19.691 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7017/Games/Create - 409 null application/json; charset=utf-8 769.0456ms
+2025-02-02 11:03:25.040 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/Games/GetALL - null null
+2025-02-02 11:03:25.042 +02:00 [INF] Executing endpoint 'GameStore.Controllers.GamesController.GetAll (GameStore)'
+2025-02-02 11:03:25.044 +02:00 [INF] Route matched with {action = "GetAll", controller = "Games"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller GameStore.Controllers.GamesController (GameStore).
+2025-02-02 11:03:25.093 +02:00 [INF] Getting all games from database
+2025-02-02 11:03:25.093 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[GameStore.Models.DTO.Game, GameStore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-02 11:03:25.096 +02:00 [INF] Executed action GameStore.Controllers.GamesController.GetAll (GameStore) in 50.7131ms
+2025-02-02 11:03:25.096 +02:00 [INF] Executed endpoint 'GameStore.Controllers.GamesController.GetAll (GameStore)'
+2025-02-02 11:03:25.097 +02:00 [INF] HTTP GET /Games/GetALL responded 200 in 54.6743 ms
+2025-02-02 11:03:25.097 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/Games/GetALL - 200 null application/json; charset=utf-8 58.0187ms
+2025-02-02 11:08:26.652 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-02-02 11:08:26.717 +02:00 [INF] Now listening on: https://localhost:7017
+2025-02-02 11:08:26.718 +02:00 [INF] Now listening on: http://localhost:5197
+2025-02-02 11:08:26.747 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 11:08:26.748 +02:00 [INF] Hosting environment: Development
+2025-02-02 11:08:26.748 +02:00 [INF] Content root path: C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore
+2025-02-02 11:08:27.146 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger - null null
+2025-02-02 11:08:27.229 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger - 301 0 null 86.1934ms
+2025-02-02 11:08:27.237 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/index.html - null null
+2025-02-02 11:08:27.283 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/index.html - 200 null text/html;charset=utf-8 46.4081ms
+2025-02-02 11:08:27.302 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - null null
+2025-02-02 11:08:27.309 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - null null
+2025-02-02 11:08:27.312 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-02 11:08:27.313 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 11:08:27.314 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - null null
+2025-02-02 11:08:27.337 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - 200 152034 text/css 35.8908ms
+2025-02-02 11:08:27.313 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-02 11:08:27.348 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 35.2405ms
+2025-02-02 11:08:27.355 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-02 11:08:27.357 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 44.4091ms
+2025-02-02 11:08:27.358 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-02 11:08:27.360 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 50.1994ms
+2025-02-02 11:08:27.374 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.4772ms
+2025-02-02 11:08:27.472 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - null null
+2025-02-02 11:08:27.543 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.1441ms
+2025-02-02 11:08:44.851 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7017/Games/Create - application/json 75
+2025-02-02 11:08:44.856 +02:00 [INF] Executing endpoint 'GameStore.Controllers.GamesController.Create (GameStore)'
+2025-02-02 11:08:44.868 +02:00 [INF] Route matched with {action = "Create", controller = "Games"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(GameStore.Models.DTO.Game) on controller GameStore.Controllers.GamesController (GameStore).
+2025-02-02 11:20:02.051 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-02-02 11:20:02.107 +02:00 [INF] Now listening on: https://localhost:7017
+2025-02-02 11:20:02.108 +02:00 [INF] Now listening on: http://localhost:5197
+2025-02-02 11:20:02.142 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-02 11:20:02.143 +02:00 [INF] Hosting environment: Development
+2025-02-02 11:20:02.143 +02:00 [INF] Content root path: C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore
+2025-02-02 11:20:02.580 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger - null null
+2025-02-02 11:20:02.656 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger - 301 0 null 79.1296ms
+2025-02-02 11:20:02.664 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/index.html - null null
+2025-02-02 11:20:02.710 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/index.html - 200 null text/html;charset=utf-8 45.2774ms
+2025-02-02 11:20:02.723 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - null null
+2025-02-02 11:20:02.724 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - null null
+2025-02-02 11:20:02.724 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-02 11:20:02.745 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-02 11:20:02.745 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-02 11:20:02.749 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 25.1133ms
+2025-02-02 11:20:02.749 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui.css - 200 152034 text/css 25.8889ms
+2025-02-02 11:20:02.751 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-02 11:20:02.754 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-02 11:20:02.754 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/_vs/browserLink - null null
+2025-02-02 11:20:02.754 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 30.4819ms
+2025-02-02 11:20:02.758 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 3.9933ms
+2025-02-02 11:20:02.778 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.0362ms
+2025-02-02 11:20:02.875 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - null null
+2025-02-02 11:20:02.927 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7017/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.9572ms
+2025-02-02 11:20:33.814 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7017/Companies/Create - application/json 76
+2025-02-02 11:20:33.822 +02:00 [INF] Executing endpoint 'GameStore.Controllers.CompaniesController.Create (GameStore)'
+2025-02-02 11:20:33.834 +02:00 [INF] Route matched with {action = "Create", controller = "Companies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(GameStore.Models.DTO.Company) on controller GameStore.Controllers.CompaniesController (GameStore).
+2025-02-02 11:20:34.579 +02:00 [ERR] Company cannot have fewer than 1 employees
+2025-02-02 11:20:34.582 +02:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-02 11:20:34.585 +02:00 [INF] Executed action GameStore.Controllers.CompaniesController.Create (GameStore) in 748.4705ms
+2025-02-02 11:20:34.586 +02:00 [INF] Executed endpoint 'GameStore.Controllers.CompaniesController.Create (GameStore)'
+2025-02-02 11:20:34.588 +02:00 [INF] HTTP POST /Companies/Create responded 409 in 767.6092 ms
+2025-02-02 11:20:34.589 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7017/Companies/Create - 409 null application/json; charset=utf-8 774.9322ms

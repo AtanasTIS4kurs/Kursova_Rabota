@@ -1,0 +1,212 @@
+[
+  {
+    "ContainingType": "GameStore.Controllers.BusinessController",
+    "Method": "AddGame",
+    "RelativePath": "Business/AddGame",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GameStore.Models.Requests.AddGameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameStore.Controllers.BusinessController",
+    "Method": "GetGamesByCompany",
+    "RelativePath": "Business/GetGamesByCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameStore.Controllers.CompaniesController",
+    "Method": "Create",
+    "RelativePath": "Companies/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "company",
+        "Type": "GameStore.Models.DTO.Company",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameStore.Controllers.CompaniesController",
+    "Method": "Delete",
+    "RelativePath": "Companies/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameStore.Controllers.CompaniesController",
+    "Method": "GetAll",
+    "RelativePath": "Companies/GetALL",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameStore.Controllers.CompaniesController",
+    "Method": "GetById",
+    "RelativePath": "Companies/GetbyId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GameStore.Models.DTO.Company",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GameStore.Controllers.CompaniesController",
+    "Method": "Update",
+    "RelativePath": "Companies/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "company",
+        "Type": "GameStore.Models.DTO.Company",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameStore.Controllers.GamesController",
+    "Method": "Create",
+    "RelativePath": "Games/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "game",
+        "Type": "GameStore.Models.DTO.Game",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameStore.Controllers.GamesController",
+    "Method": "Delete",
+    "RelativePath": "Games/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameStore.Controllers.GamesController",
+    "Method": "GetAll",
+    "RelativePath": "Games/GetALL",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameStore.Controllers.GamesController",
+    "Method": "GetById",
+    "RelativePath": "Games/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GameStore.Models.DTO.Game",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GameStore.Controllers.GamesController",
+    "Method": "Update",
+    "RelativePath": "Games/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "game",
+        "Type": "GameStore.Models.DTO.Game",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
