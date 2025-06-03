@@ -18,11 +18,11 @@ namespace GameStore.Controllers
         }
 
         [HttpGet("GetGamesByCompany")]
-        public IActionResult GetGamesByCompany(string companyName)
+        public async Task<IActionResult> GetGamesByCompany(string companyName)
         {
             try
             {
-                var result = _businessService.GetGamesByCompanyName(companyName);
+                var result = await _businessService.GetGamesByCompanyName(companyName);
                 _logger.LogInformation("Getting games from company {companyName}", companyName);
                 return Ok(result);
             }
@@ -33,11 +33,11 @@ namespace GameStore.Controllers
             }
         }
         [HttpPost("AddGame")]
-        public IActionResult AddGame([FromBody] AddGameRequest request)
+        public async Task<IActionResult> AddGame([FromBody] AddGameRequest request)
         {
 
             _logger.LogInformation("Adding a new game");
-            var newGame = _businessService.AddGame(request);
+            var newGame = await _businessService.AddGame(request);
             return CreatedAtAction(nameof(AddGame), new { id = newGame.Id }, newGame);
         }
     }

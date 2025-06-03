@@ -72,18 +72,18 @@ namespace GameStore.Test
             _businessService = new BusinessService(_gameRepositoryMock.Object, _companyRepositoryMock.Object, _mockValidator.Object);
         }
         [Fact]
-        public void GetGamesByCompanyName_OK()
+        public async Task GetGamesByCompanyName_OK()
         {
             // Arrange
             var companyName = "TestCompany";
             var company = new Company { Name = companyName };
             var games = new List<Game> { new Game { Name = "Game1" }, new Game { Name = "Game2" } };
 
-            _companyRepositoryMock.Setup(x => x.GetByName(companyName)).Returns(company);
-            _gameRepositoryMock.Setup(x => x.GetByCompanyName(companyName)).Returns(games);
+            _companyRepositoryMock.Setup(x => x.GetByName(companyName)).ReturnsAsync(company);
+            _gameRepositoryMock.Setup(x => x.GetByCompanyName(companyName)).ReturnsAsync(games);
 
             //// Act
-            var result = _businessService.GetGamesByCompanyName(companyName);
+            var result = await _businessService.GetGamesByCompanyName(companyName);
 
             // Assert
             Assert.NotNull(result);
@@ -92,21 +92,21 @@ namespace GameStore.Test
         }
 
         [Fact]
-        public void GetGamesByCompanyName_NotOk()
+        public async Task GetGamesByCompanyName_NotOk()
         {
             // Arrange
             var companyName = "TestCompany";
-            _companyRepositoryMock.Setup(x => x.GetByName(companyName)).Returns((Company)null);
+            _companyRepositoryMock.Setup(x => x.GetByName(companyName)).ReturnsAsync((Company?)null);
 
             // Act 
 
             // Assert
 
-            var exception = Assert.Throws<KeyNotFoundException>(() => _businessService.GetGamesByCompanyName(companyName));
+            var exception = await Assert.ThrowsAsync<KeyNotFoundException>(() => _businessService.GetGamesByCompanyName(companyName));
             Assert.Equal($"Company '{companyName}' not found.", exception.Message);
         }
         [Fact]
-        public void AddGame_OK()
+        public async Task AddGame_OK()
         {
             // Arrange
             var request = new AddGameRequest { Name = "NewGame" };
@@ -116,7 +116,7 @@ namespace GameStore.Test
 
             // Act
 
-            var result = _businessService.AddGame(request);
+            var result = await _businessService.AddGame(request);
 
             // Assert
             Assert.NotNull(result);
@@ -125,7 +125,7 @@ namespace GameStore.Test
         }
 
         [Fact]
-        public void AddGame_NotOK()
+        public async Task AddGame_NotOK()
         {
             // Arrange
             var request = new AddGameRequest { Name = "" }; // Invalid request
@@ -135,7 +135,7 @@ namespace GameStore.Test
             // Act
            
             //Assert
-            var exception = Assert.Throws<ValidationException>(() => _businessService.AddGame(request));
+            var exception = await Assert.ThrowsAsync<ValidationException>(() => _businessService.AddGame(request));
             Assert.Contains("Title is required.", exception.Message);
         }
     }

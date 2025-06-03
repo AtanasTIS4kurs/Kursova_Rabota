@@ -62,3 +62,4 @@ C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\bin\Debug\net
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\obj\Debug\net8.0\GameStore.sourcelink.json

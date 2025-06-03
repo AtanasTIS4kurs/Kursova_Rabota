@@ -123,3 +123,4 @@ C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.Test\bin\Debu
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.Test\bin\Debug\net8.0\GameStore.BL.pdb
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.Test\bin\Debug\net8.0\GameStore.DL.pdb
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.Test\bin\Debug\net8.0\GameStore.Models.pdb
+C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.Test\obj\Debug\net8.0\GameStore.Test.sourcelink.json

@@ -17,9 +17,9 @@ namespace GameStore.Controllers
         }
 
         [HttpGet("GetALL")]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var games = _gameService.GetAll();
+            var games = await _gameService.GetAll();
             if (games.Count == 0)
             {
                 _logger.LogError("No games found in database");
@@ -29,14 +29,14 @@ namespace GameStore.Controllers
             return Ok(games);
         }
         [HttpGet("GetById")]
-        public ActionResult<Game> GetById(string id)
+        public async Task<ActionResult<Game>> GetById(string id)
         {
             if (string.IsNullOrEmpty(id) || !System.Text.RegularExpressions.Regex.IsMatch(id, @"^[a-fA-F0-9]{24}$"))
             {
                 _logger.LogError("The provided id must be a 24-digit hexadecimal string.");
                 return BadRequest(new { message = "The provided id must be a 24-digit hexadecimal string." });
             }
-            var game = _gameService.GetById(id);
+            var game = await _gameService.GetById(id);
             if (game == null)
             {
                 _logger.LogError("Game with id:{id} not found", id);
@@ -47,14 +47,14 @@ namespace GameStore.Controllers
         }
 
         [HttpPost("Create")]
-        public IActionResult Create(Game game)
+        public async Task<IActionResult> Create(Game game)
         {
             if (string.IsNullOrEmpty(game.Id) || !System.Text.RegularExpressions.Regex.IsMatch(game.Id, @"^[a-fA-F0-9]{24}$"))
             {
                 _logger.LogError("The provided id must be a 24-digit hexadecimal string");
                 return BadRequest(new { message = "The provided id must be a 24-digit hexadecimal string" });
             }
-            var existingGame = _gameService.GetById(game.Id);
+            var existingGame = await _gameService.GetById(game.Id);
             if (existingGame != null)
             {
                 _logger.LogError("Game creation failed. Game with id:{game.id} is already in use", game.Id);
@@ -65,7 +65,7 @@ namespace GameStore.Controllers
                 _logger.LogError("Game creation failed. Game can't have a negative or no price");
                 return Conflict(new { message = "Game can't have a negative or no price" });
             }
-            _gameService.Create(game);
+            await _gameService.Create(game);
             _logger.LogInformation("Creating game with id:{game.id} in database", game.Id);
             return CreatedAtAction(nameof(GetById), new { id = game.Id }, game);
         }

@@ -4,11 +4,11 @@ namespace GameStore.DL.Interface
 {
     public interface ICompanyRepository
     {
-        List<Company> GetAll();
-        Company GetById(string id);
-        void Create(Company company);
-        void Update(Company company);
-        void Delete(string id);
-        Company? GetByName(string companyName);
+        Task<List<Company>> GetAll();
+        Task<Company?> GetById(string id);
+        Task Create(Company company);
+        Task Update(Company company);
+        Task Delete(string id);
+        Task<Company?> GetByName(string companyName);
     }
 }

@@ -13,3 +13,4 @@ C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.DL\obj\Debug\
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.DL\obj\Debug\net8.0\refint\GameStore.DL.dll
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.DL\obj\Debug\net8.0\GameStore.DL.pdb
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.DL\obj\Debug\net8.0\ref\GameStore.DL.dll
+C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.DL\obj\Debug\net8.0\GameStore.DL.sourcelink.json

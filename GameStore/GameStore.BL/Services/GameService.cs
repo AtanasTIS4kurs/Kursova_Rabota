@@ -13,25 +13,25 @@ namespace GameStore.BL.Services
             _gameRepository = gameRepository;
         }
 
-        public void Create(Game game)
+        public async Task Create(Game game)
         {
-            _gameRepository.Create(game);
+            await _gameRepository.Create(game);
         }
 
-        public void Delete(string id)
+        public async Task Delete(string id)
         {
-            _gameRepository.Delete(id);
+            await _gameRepository.Delete(id);
         }
 
-        public List<Game> GetAll()
+        public async Task<List<Game>> GetAll()
         {
-            return _gameRepository.GetAll();        }
+            return await _gameRepository.GetAll();        }
 
-        public Game GetById(string id) => _gameRepository.GetById(id);
+        public async Task<Game?> GetById(string id) => await _gameRepository.GetById(id);
 
-        public void Update(Game game)
+        public async Task Update(Game game)
         {
-            _gameRepository.Update(game);
+           await _gameRepository.Update(game);
         }
     }
 

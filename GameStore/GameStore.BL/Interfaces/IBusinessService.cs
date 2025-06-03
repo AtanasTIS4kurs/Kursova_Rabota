@@ -6,7 +6,7 @@ namespace GameStore.BL.Interfaces
 {
     public interface IBusinessService
     {
-        GamesFromCompany GetGamesByCompanyName(string companyName);
-        Game AddGame(AddGameRequest request);
+        Task<GamesFromCompany> GetGamesByCompanyName(string companyName);
+        Task<Game> AddGame(AddGameRequest request);
     }
 }

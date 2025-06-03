@@ -18,9 +18,9 @@ namespace GameStore.Controllers
         }
 
         [HttpGet("GetALL")]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var companies = _companyService.GetAll();
+            var companies = await _companyService.GetAll();
             if (companies.Count == 0)
             {
                 _logger.LogError("No companies found in database");
@@ -30,14 +30,14 @@ namespace GameStore.Controllers
             return Ok(companies);
         }
         [HttpGet("GetbyId")]
-        public ActionResult<Company> GetById(string id)
+        public async Task<ActionResult<Company>> GetById(string id)
         {
             if (string.IsNullOrEmpty(id) || !System.Text.RegularExpressions.Regex.IsMatch(id, @"^[a-fA-F0-9]{24}$"))
             {
                 _logger.LogError("The provided id must be a 24-digit hexadecimal string.");
                 return BadRequest(new { message = "The provided id must be a 24-digit hexadecimal string." });
             }
-            var company = _companyService.GetById(id);
+            var company = await _companyService.GetById(id);
             if (company == null)
             {
                 _logger.LogError("Company with id:{id} not found", id);
@@ -48,14 +48,14 @@ namespace GameStore.Controllers
         }
 
         [HttpPost("Create")]
-        public IActionResult Create(Company company)
+        public async Task<IActionResult> Create(Company company)
         {
             if (string.IsNullOrEmpty(company.Id) || !System.Text.RegularExpressions.Regex.IsMatch(company.Id, @"^[a-fA-F0-9]{24}$"))
             {
                 _logger.LogError("The provided id must be a 24-digit hexadecimal string.");
                 return BadRequest(new { message = "The provided id must be a 24-digit hexadecimal string." });
             }
-            var existingGompany = _companyService.GetById(company.Id);
+            var existingGompany = await _companyService.GetById(company.Id);
             if (existingGompany != null)
             {
                 _logger.LogError("Company creation failed. Company with id:{company.id} is already in use.", company.Id);
@@ -66,7 +66,7 @@ namespace GameStore.Controllers
                 _logger.LogError("Company cannot have fewer than 1 employees");
                 return Conflict(new { message = "Company cannot have fewer than 1 employees" });
             }
-            _companyService.Create(company);
+            await _companyService.Create(company);
             _logger.LogInformation("Creating company with id:{company.Id} in database", company.Id);
             return CreatedAtAction(nameof(GetById), new { id = company.Id }, company);
         }

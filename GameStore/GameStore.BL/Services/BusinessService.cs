@@ -24,22 +24,22 @@ namespace GameStore.BL.Services
             _addGameValidator = addGameValidator;
         }
 
-        public GamesFromCompany GetGamesByCompanyName(string companyName)
+        public async Task<GamesFromCompany> GetGamesByCompanyName(string companyName)
         {
-            var company = _companyRepository.GetByName(companyName);
+            var company = await _companyRepository.GetByName(companyName);
             if (company == null)
             {
                 throw new KeyNotFoundException($"Company '{companyName}' not found.");
             }
 
-            var games = _gameRepository.GetByCompanyName(company.Name);
+            var games = await _gameRepository.GetByCompanyName(company.Name);
 
             var companyWithGames = company.Adapt<GamesFromCompany>();
             companyWithGames.Games = games; 
 
             return companyWithGames;
         }
-        public Game AddGame(AddGameRequest request)
+        public async Task<Game> AddGame(AddGameRequest request)
         {
             var validationResult = _addGameValidator.Validate(request);
             if (!validationResult.IsValid)
@@ -48,7 +48,7 @@ namespace GameStore.BL.Services
             }
             var newGame = request.Adapt<Game>();
 
-            _gameRepository.Create(newGame);
+            await _gameRepository.Create(newGame);
 
             return newGame;
         }

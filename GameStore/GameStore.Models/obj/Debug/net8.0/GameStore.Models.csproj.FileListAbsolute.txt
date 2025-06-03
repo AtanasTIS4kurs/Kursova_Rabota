@@ -10,3 +10,4 @@ C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.Models\obj\De
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.Models\obj\Debug\net8.0\GameStore.Models.pdb
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.Models\obj\Debug\net8.0\ref\GameStore.Models.dll
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.Models\obj\Debug\net8.0\GameStore.Models.csproj.AssemblyReference.cache
+C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore.Models\obj\Debug\net8.0\GameStore.Models.sourcelink.json

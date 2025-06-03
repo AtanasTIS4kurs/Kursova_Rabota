@@ -20,30 +20,35 @@ namespace GameStore.DL.Repositories
 
         }
 
-        public void Create(Company company)
+        public async Task Create(Company company)
         {
-            _companiesCollection.InsertOne(company);
+           await _companiesCollection.InsertOneAsync(company);
         }
 
-        public void Delete(string id)
+        public async Task Delete(string id)
         {
-            _companiesCollection.DeleteOne(c => c.Id == id);
+           await _companiesCollection.DeleteOneAsync(c => c.Id == id);
         }
 
-        public List<Company> GetAll()
+        public async Task<List<Company>> GetAll()
         {
-            return  _companiesCollection.Find(_ => true).ToList();
+            var companies = await _companiesCollection.FindAsync(_ => true);
+            return await companies.ToListAsync();
         }
 
-        public Company GetById(string id) => _companiesCollection.Find(c => c.Id == id).FirstOrDefault();
-
-        public void Update(Company company)
+        public async Task<Company?> GetById(string id)
         {
-            _companiesCollection.ReplaceOne(c => c.Id == company.Id, company);
+            var result = await _companiesCollection.FindAsync(c => c.Id == id);
+            return await result.FirstOrDefaultAsync();
         }
-        public Company? GetByName(string companyName)
+        public async Task Update(Company company)
         {
-            return _companiesCollection.Find(c => c.Name == companyName).FirstOrDefault();
+            await _companiesCollection.ReplaceOneAsync(c => c.Id == company.Id, company);
+        }
+        public async Task<Company?> GetByName(string companyName)
+        {
+            var result = await _companiesCollection.FindAsync(c => c.Name == companyName);
+            return await result.FirstOrDefaultAsync();
         }
     }
 }

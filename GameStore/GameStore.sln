@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.DL", "GameStore.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.BL", "GameStore.BL\GameStore.BL.csproj", "{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Test", "GameStore.Test\GameStore.Test.csproj", "{284B306A-BB1A-4CB3-B9FA-31D724D1B49B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.Test", "GameStore.Test\GameStore.Test.csproj", "{284B306A-BB1A-4CB3-B9FA-31D724D1B49B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

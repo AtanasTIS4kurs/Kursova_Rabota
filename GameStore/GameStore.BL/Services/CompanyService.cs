@@ -13,26 +13,26 @@ namespace GameStore.BL.Services
             _companyRepository = companyRepository;
         }
 
-        public void Create(Company company)
+        public async Task Create(Company company)
         {
-            _companyRepository.Create(company);
+           await _companyRepository.Create(company);
         }
 
-        public void Delete(string id)
+        public async Task Delete(string id)
         {
-            _companyRepository.Delete(id);
+            await _companyRepository.Delete(id);
         }
 
-        public List<Company> GetAll()
+        public async Task<List<Company>> GetAll()
         {
-            return _companyRepository.GetAll();
+            return await _companyRepository.GetAll();
         }
 
-        public Company GetById(string id) => _companyRepository.GetById(id);
+        public async Task<Company?> GetById(string id) => await _companyRepository.GetById(id);
 
-        public void Update(Company company)
+        public async Task Update(Company company)
         {
-            _companyRepository.Update(company);
+            await _companyRepository.Update(company);
         }
     }
 }
