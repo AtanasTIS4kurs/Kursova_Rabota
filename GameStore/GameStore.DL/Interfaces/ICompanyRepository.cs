@@ -1,8 +1,9 @@
-﻿using GameStore.Models.DTO;
+﻿using GameStore.DL.Cache;
+using GameStore.Models.DTO;
 
 namespace GameStore.DL.Interface
 {
-    public interface ICompanyRepository
+    public interface ICompanyRepository : ICacheRepository<string, Company>
     {
         Task<List<Company>> GetAll();
         Task<Company?> GetById(string id);

@@ -19,9 +19,8 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 // Add services to the container.
-builder.Services.Configure<MongoDbConfiguration>(
-               builder.Configuration.GetSection(nameof(MongoDbConfiguration)));
-builder.Services.RegisterRepositories();
+builder.Services.Configure<MongoDbConfiguration>(builder.Configuration.GetSection(nameof(MongoDbConfiguration)));
+builder.Services.RegisterRepositories(builder.Configuration);
 builder.Services.RegisterServices();
 builder.Services.AddControllers();
 builder.Services.AddHealthChecks();

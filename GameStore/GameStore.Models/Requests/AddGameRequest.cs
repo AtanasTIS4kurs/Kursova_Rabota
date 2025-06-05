@@ -11,6 +11,9 @@ namespace GameStore.Models.Requests
          public decimal Price { get; set; }
          [BsonElement("Company")]
          public string Company { get; set; } = null!;
-    
+         [BsonElement("DateInserted")]
+         public DateTime DateInserted { get; set; }
+
+
     }
 }

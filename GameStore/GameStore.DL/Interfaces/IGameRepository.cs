@@ -1,8 +1,9 @@
-﻿using GameStore.Models.DTO;
+﻿using GameStore.DL.Cache;
+using GameStore.Models.DTO;
 
 namespace GameStore.DL.Interface
 {
-    public interface IGameRepository
+    public interface IGameRepository : ICacheRepository<string, Game>
     {
         Task<List<Game>> GetAll();
         Task<Game?> GetById(string id);

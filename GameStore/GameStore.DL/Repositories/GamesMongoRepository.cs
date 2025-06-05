@@ -47,5 +47,20 @@ namespace GameStore.DL.Repositories
             var result = await _gamesCollection.FindAsync(g => g.Company == companyName);
             return await result.ToListAsync();
         }
+
+        protected async Task<IEnumerable<Game?>> GetGamesAfterDateTime(DateTime date)
+        {
+            var result = await _gamesCollection.FindAsync(m => m.DateInserted >= date);
+            return await result.ToListAsync();
+        }
+        public async Task<IEnumerable<Game?>> FullLoad()
+        {
+            return await GetAll();
+        }
+
+        public async Task<IEnumerable<Game?>> DifLoad(DateTime lastExecuted)
+        {
+            return await GetGamesAfterDateTime(lastExecuted);
+        }
     }
 }
