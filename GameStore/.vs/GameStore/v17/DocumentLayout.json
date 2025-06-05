@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\gateway\\gameordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\gateway\\gameordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gameorder\\controllers\\gameordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|solutionrelative:gameorder\\controllers\\gameordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\gateway\\gameordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\gateway\\gameordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.bl\\services\\businessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -158,32 +158,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameOrderController.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\Controllers\\GameOrderController.cs",
               "RelativeDocumentMoniker": "GameOrder\\Controllers\\GameOrderController.cs",
               "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\Controllers\\GameOrderController.cs",
               "RelativeToolTip": "GameOrder\\Controllers\\GameOrderController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T16:25:05.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GameOrderGateway.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Gateway\\GameOrderGateway.cs",
               "RelativeDocumentMoniker": "GameStore.DL\\Gateway\\GameOrderGateway.cs",
               "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Gateway\\GameOrderGateway.cs",
               "RelativeToolTip": "GameStore.DL\\Gateway\\GameOrderGateway.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T18:51:08.412Z"
+              "WhenOpened": "2025-06-05T18:51:08.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GamesController.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\Controllers\\GamesController.cs",
               "RelativeDocumentMoniker": "GameStore\\Controllers\\GamesController.cs",
