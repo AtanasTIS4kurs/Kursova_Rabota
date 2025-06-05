@@ -95,3 +95,5 @@ C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\bin\Debug\net
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\nasko\Documents\GitHub\Kursova_Rabota\GameStore\GameStore\bin\Debug\net8.0\RestSharp.dll

@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "GameOrder.Controllers.ExternalOrderController",
+    "Method": "GetGameOrderByName",
+    "RelativePath": "api/ExternalOrder/Order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GameStore.Models.Responses.GameOrderResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

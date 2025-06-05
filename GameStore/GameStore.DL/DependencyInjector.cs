@@ -1,5 +1,7 @@
 ﻿using GameStore.DL.Cache;
+using GameStore.DL.Gateway;
 using GameStore.DL.Interface;
+using GameStore.DL.Interfaces;
 using GameStore.DL.Kafka;
 using GameStore.DL.Kafka.KafkaCache;
 using GameStore.DL.Repositories;
@@ -18,6 +20,7 @@ namespace GameStore.DL
             services
                 .AddScoped<IGameRepository, GamesMongoRepository>()
                 .AddScoped<ICompanyRepository, CompaniesMongoRepository>()
+                .AddScoped<IGameOrderGateway, GameOrderGateway>()
                 .AddCache<CompanyCacheConfiguration, CompaniesMongoRepository, Company, string>(config)
                 .AddCache<GamesCacheConfiguration, GamesMongoRepository, Game, string>(config)
                 .AddHostedService<KafkaCache<string, Game>>();
