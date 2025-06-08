@@ -40,6 +40,21 @@ namespace GameStore.Controllers
             var newGame = await _businessService.AddGame(request);
             return CreatedAtAction(nameof(AddGame), new { id = newGame.Id }, newGame);
         }
+        [HttpGet("GetGameOrder")]
+        public async Task<IActionResult> GetGameOrder(string id)
+        {
+            try
+            {
+                var result = await _businessService.GetGameOrder(id);
+                _logger.LogInformation("Getting order info for game with id:{id}", id);
+                return Ok(result);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                _logger.LogError("Game with id:{id} not Found", id);
+                return NotFound(ex.Message);
+            }
+        }
     }
 
 

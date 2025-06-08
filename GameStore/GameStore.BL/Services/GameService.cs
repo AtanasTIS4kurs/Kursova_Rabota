@@ -1,5 +1,5 @@
 ﻿using GameStore.BL.Interfaces;
-using GameStore.DL.Interface;
+using GameStore.DL.Interfaces;
 using GameStore.Models.DTO;
 
 namespace GameStore.BL.Services

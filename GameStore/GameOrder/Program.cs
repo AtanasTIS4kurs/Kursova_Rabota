@@ -1,13 +1,9 @@
-using GameStore.DL.Gateway;
-using GameStore.DL.Interfaces;
-
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IGameOrderGateway, GameOrderGateway>();
 var app = builder.Build();
 
 

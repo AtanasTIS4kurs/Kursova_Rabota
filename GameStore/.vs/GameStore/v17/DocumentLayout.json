@@ -3,56 +3,99 @@
   "WorkspaceRootPath": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\interfaces\\igameordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\interfaces\\igameordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\gateway\\gameordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\gateway\\gameordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gameorder\\controllers\\gameordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|solutionrelative:gameorder\\controllers\\gameordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.bl\\services\\businessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|solutionrelative:gamestore.bl\\services\\businessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\cache\\mongocachedistributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\cache\\mongocachedistributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.bl\\interfaces\\ibusinessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|solutionrelative:gamestore.bl\\interfaces\\ibusinessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F02EA9B9-0270-469A-B953-E18FE3EF2B8E}|GameStore.Models\\GameStore.Models.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.models\\responses\\gameorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F02EA9B9-0270-469A-B953-E18FE3EF2B8E}|GameStore.Models\\GameStore.Models.csproj|solutionrelative:gamestore.models\\responses\\gameorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gameorder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|solutionrelative:gameorder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gameorder\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|solutionrelative:gameorder\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\interfaces\\igameordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\interfaces\\igameordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gameorder\\controllers\\gameordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|solutionrelative:gameorder\\controllers\\gameordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\interfaces\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\interfaces\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\repositories\\companiesmongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\repositories\\companiesmongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F02EA9B9-0270-469A-B953-E18FE3EF2B8E}|GameStore.Models\\GameStore.Models.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.models\\responses\\gameorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F02EA9B9-0270-469A-B953-E18FE3EF2B8E}|GameStore.Models\\GameStore.Models.csproj|solutionrelative:gamestore.models\\responses\\gameorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02EA9B9-0270-469A-B953-E18FE3EF2B8E}|GameStore.Models\\GameStore.Models.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.models\\requests\\gamewithorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F02EA9B9-0270-469A-B953-E18FE3EF2B8E}|GameStore.Models\\GameStore.Models.csproj|solutionrelative:gamestore.models\\requests\\gamewithorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gameorder\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|solutionrelative:gameorder\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.bl\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|solutionrelative:gamestore.bl\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.bl\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|solutionrelative:gamestore.bl\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284B306A-BB1A-4CB3-B9FA-31D724D1B49B}|GameStore.Test\\GameStore.Test.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.test\\businessserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284B306A-BB1A-4CB3-B9FA-31D724D1B49B}|GameStore.Test\\GameStore.Test.csproj|solutionrelative:gamestore.test\\businessserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore\\validator\\requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\validator\\requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\dependencyinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\dependencyinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\repositories\\companiesmongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\repositories\\companiesmongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\repositories\\gamesmongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\repositories\\gamesmongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\interfaces\\igamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\interfaces\\igamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gameorder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|solutionrelative:gameorder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gameorder\\gameorder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|solutionrelative:gameorder\\gameorder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\cache\\mongocachedistributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\cache\\mongocachedistributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\kafka\\kafkacache\\kafkacache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,22 +104,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AEB3CFB-CE6B-45DC-93E9-527554CF2FD4}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\interfaces\\igamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\interfaces\\igamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.bl\\interfaces\\ibusinessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FD49A11-AB4D-4463-B15F-0FA83DD555CD}|GameStore.BL\\GameStore.BL.csproj|solutionrelative:gamestore.bl\\interfaces\\ibusinessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\repositories\\gamesmongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|solutionrelative:gamestore.dl\\repositories\\gamesmongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gameorder\\gameorder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CB93F403-E046-483E-97CE-2A5AFA9C01C2}|GameOrder\\GameOrder.csproj|solutionrelative:gameorder\\gameorder.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DEDEF8B-7B38-4381-BA77-F62974C668FC}|GameStore.DL\\GameStore.DL.csproj|c:\\users\\nasko\\documents\\github\\kursova_rabota\\gamestore\\gamestore.dl\\kafka\\kafkaproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,133 +121,310 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IGameOrderGateway.cs",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\IGameOrderGateway.cs",
-              "RelativeDocumentMoniker": "GameStore.DL\\Interfaces\\IGameOrderGateway.cs",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\IGameOrderGateway.cs",
-              "RelativeToolTip": "GameStore.DL\\Interfaces\\IGameOrderGateway.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "GameStore.DL\\Interfaces\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\ICompanyRepository.cs",
+              "RelativeToolTip": "GameStore.DL\\Interfaces\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T18:59:09.724Z"
+              "WhenOpened": "2025-06-05T07:38:25.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GameOrderResponse.cs",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.Models\\Responses\\GameOrderResponse.cs",
-              "RelativeDocumentMoniker": "GameStore.Models\\Responses\\GameOrderResponse.cs",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.Models\\Responses\\GameOrderResponse.cs",
-              "RelativeToolTip": "GameStore.Models\\Responses\\GameOrderResponse.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T18:07:18.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\appsettings.json",
-              "RelativeDocumentMoniker": "GameOrder\\appsettings.json",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\appsettings.json",
-              "RelativeToolTip": "GameOrder\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-05T19:35:40.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\appsettings.json",
-              "RelativeDocumentMoniker": "GameStore\\appsettings.json",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\appsettings.json",
-              "RelativeToolTip": "GameStore\\appsettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-05T08:37:17.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\Program.cs",
-              "RelativeDocumentMoniker": "GameOrder\\Program.cs",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\Program.cs",
-              "RelativeToolTip": "GameOrder\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T18:36:56.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "GameOrderController.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\Controllers\\GameOrderController.cs",
               "RelativeDocumentMoniker": "GameOrder\\Controllers\\GameOrderController.cs",
               "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\Controllers\\GameOrderController.cs",
               "RelativeToolTip": "GameOrder\\Controllers\\GameOrderController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T16:25:05.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "GameOrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.Models\\Responses\\GameOrderResponse.cs",
+              "RelativeDocumentMoniker": "GameStore.Models\\Responses\\GameOrderResponse.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.Models\\Responses\\GameOrderResponse.cs",
+              "RelativeToolTip": "GameStore.Models\\Responses\\GameOrderResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:07:18.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameOrderGateway.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Gateway\\GameOrderGateway.cs",
               "RelativeDocumentMoniker": "GameStore.DL\\Gateway\\GameOrderGateway.cs",
               "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Gateway\\GameOrderGateway.cs",
               "RelativeToolTip": "GameStore.DL\\Gateway\\GameOrderGateway.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T18:51:08.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GamesController.cs",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\Controllers\\GamesController.cs",
-              "RelativeDocumentMoniker": "GameStore\\Controllers\\GamesController.cs",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\Controllers\\GamesController.cs",
-              "RelativeToolTip": "GameStore\\Controllers\\GamesController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAuwGgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T20:05:44.639Z"
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\appsettings.json",
+              "RelativeDocumentMoniker": "GameStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\appsettings.json",
+              "RelativeToolTip": "GameStore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T08:37:17.938Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "BusinessController.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\Controllers\\BusinessController.cs",
+              "RelativeDocumentMoniker": "GameStore\\Controllers\\BusinessController.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\Controllers\\BusinessController.cs",
+              "RelativeToolTip": "GameStore\\Controllers\\BusinessController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:28:59.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BusinessService.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.BL\\Services\\BusinessService.cs",
               "RelativeDocumentMoniker": "GameStore.BL\\Services\\BusinessService.cs",
               "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.BL\\Services\\BusinessService.cs",
               "RelativeToolTip": "GameStore.BL\\Services\\BusinessService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwDsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T17:51:41.399Z"
+              "WhenOpened": "2025-06-05T17:51:41.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IGameOrderGateway.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\IGameOrderGateway.cs",
+              "RelativeDocumentMoniker": "GameStore.DL\\Interfaces\\IGameOrderGateway.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\IGameOrderGateway.cs",
+              "RelativeToolTip": "GameStore.DL\\Interfaces\\IGameOrderGateway.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:59:09.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBusinessService.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.BL\\Interfaces\\IBusinessService.cs",
+              "RelativeDocumentMoniker": "GameStore.BL\\Interfaces\\IBusinessService.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.BL\\Interfaces\\IBusinessService.cs",
+              "RelativeToolTip": "GameStore.BL\\Interfaces\\IBusinessService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T17:51:19.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ICompanyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\ICompanyRepository.cs",
-              "RelativeDocumentMoniker": "GameStore.DL\\Interfaces\\ICompanyRepository.cs",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\ICompanyRepository.cs",
-              "RelativeToolTip": "GameStore.DL\\Interfaces\\ICompanyRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAApwAwAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T07:38:25.406Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\appsettings.json",
+              "RelativeDocumentMoniker": "GameOrder\\appsettings.json",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\appsettings.json",
+              "RelativeToolTip": "GameOrder\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T19:35:40.82Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "GameWithOrder.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.Models\\Requests\\GameWithOrder.cs",
+              "RelativeDocumentMoniker": "GameStore.Models\\Requests\\GameWithOrder.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.Models\\Requests\\GameWithOrder.cs",
+              "RelativeToolTip": "GameStore.Models\\Requests\\GameWithOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:18:45.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.BL\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "GameStore.BL\\Services\\GameService.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.BL\\Services\\GameService.cs",
+              "RelativeToolTip": "GameStore.BL\\Services\\GameService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:15:00.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.BL\\Services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "GameStore.BL\\Services\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.BL\\Services\\CompanyService.cs",
+              "RelativeToolTip": "GameStore.BL\\Services\\CompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:26:00.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ViewState": "AgIAACYAAAAAAAAAAAAawDUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-08T16:26:13.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BusinessServiceUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.Test\\BusinessServiceUnitTest.cs",
+              "RelativeDocumentMoniker": "GameStore.Test\\BusinessServiceUnitTest.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.Test\\BusinessServiceUnitTest.cs",
+              "RelativeToolTip": "GameStore.Test\\BusinessServiceUnitTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:26:33.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "GameStore\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "GameStore\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwGgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T20:05:44.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\Validator\\RequestValidator.cs",
+              "RelativeDocumentMoniker": "GameStore\\Validator\\RequestValidator.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\Validator\\RequestValidator.cs",
+              "RelativeToolTip": "GameStore\\Validator\\RequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:26:24.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GamesMongoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Repositories\\GamesMongoRepository.cs",
+              "RelativeDocumentMoniker": "GameStore.DL\\Repositories\\GamesMongoRepository.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Repositories\\GamesMongoRepository.cs",
+              "RelativeToolTip": "GameStore.DL\\Repositories\\GamesMongoRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:17:29.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CompaniesMongoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Repositories\\CompaniesMongoRepository.cs",
+              "RelativeDocumentMoniker": "GameStore.DL\\Repositories\\CompaniesMongoRepository.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Repositories\\CompaniesMongoRepository.cs",
+              "RelativeToolTip": "GameStore.DL\\Repositories\\CompaniesMongoRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T07:34:27.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DependencyInjector.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\DependencyInjector.cs",
+              "RelativeDocumentMoniker": "GameStore.DL\\DependencyInjector.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\DependencyInjector.cs",
+              "RelativeToolTip": "GameStore.DL\\DependencyInjector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T07:18:39.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IGameRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\IGameRepository.cs",
+              "RelativeDocumentMoniker": "GameStore.DL\\Interfaces\\IGameRepository.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\IGameRepository.cs",
+              "RelativeToolTip": "GameStore.DL\\Interfaces\\IGameRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T07:38:37.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\Program.cs",
+              "RelativeDocumentMoniker": "GameOrder\\Program.cs",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\Program.cs",
+              "RelativeToolTip": "GameOrder\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:36:56.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GameOrder.csproj",
+              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\GameOrder.csproj",
+              "RelativeDocumentMoniker": "GameOrder\\GameOrder.csproj",
+              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\GameOrder.csproj",
+              "RelativeToolTip": "GameOrder\\GameOrder.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T16:24:56.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "MongoCacheDistributor.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Cache\\MongoCacheDistributor.cs",
               "RelativeDocumentMoniker": "GameStore.DL\\Cache\\MongoCacheDistributor.cs",
@@ -232,19 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CompaniesMongoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Repositories\\CompaniesMongoRepository.cs",
-              "RelativeDocumentMoniker": "GameStore.DL\\Repositories\\CompaniesMongoRepository.cs",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Repositories\\CompaniesMongoRepository.cs",
-              "RelativeToolTip": "GameStore.DL\\Repositories\\CompaniesMongoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T07:34:27.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "KafkaCache.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Kafka\\KafkaCache\\KafkaCache.cs",
               "RelativeDocumentMoniker": "GameStore.DL\\Kafka\\KafkaCache\\KafkaCache.cs",
@@ -256,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore\\Program.cs",
               "RelativeDocumentMoniker": "GameStore\\Program.cs",
@@ -268,67 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DependencyInjector.cs",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\DependencyInjector.cs",
-              "RelativeDocumentMoniker": "GameStore.DL\\DependencyInjector.cs",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\DependencyInjector.cs",
-              "RelativeToolTip": "GameStore.DL\\DependencyInjector.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T07:18:39.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IGameRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\IGameRepository.cs",
-              "RelativeDocumentMoniker": "GameStore.DL\\Interfaces\\IGameRepository.cs",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Interfaces\\IGameRepository.cs",
-              "RelativeToolTip": "GameStore.DL\\Interfaces\\IGameRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T07:38:37.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IBusinessService.cs",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.BL\\Interfaces\\IBusinessService.cs",
-              "RelativeDocumentMoniker": "GameStore.BL\\Interfaces\\IBusinessService.cs",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.BL\\Interfaces\\IBusinessService.cs",
-              "RelativeToolTip": "GameStore.BL\\Interfaces\\IBusinessService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T17:51:19.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GamesMongoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Repositories\\GamesMongoRepository.cs",
-              "RelativeDocumentMoniker": "GameStore.DL\\Repositories\\GamesMongoRepository.cs",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Repositories\\GamesMongoRepository.cs",
-              "RelativeToolTip": "GameStore.DL\\Repositories\\GamesMongoRepository.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T08:17:29.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GameOrder.csproj",
-              "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\GameOrder.csproj",
-              "RelativeDocumentMoniker": "GameOrder\\GameOrder.csproj",
-              "ToolTip": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameOrder\\GameOrder.csproj",
-              "RelativeToolTip": "GameOrder\\GameOrder.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-05T16:24:56.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "KafkaProducer.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.DL\\Kafka\\KafkaProducer.cs",
               "RelativeDocumentMoniker": "GameStore.DL\\Kafka\\KafkaProducer.cs",
@@ -340,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "BaseKafkaCacheConfig.cs",
               "DocumentMoniker": "C:\\Users\\nasko\\Documents\\GitHub\\Kursova_Rabota\\GameStore\\GameStore.Models\\Configuration\\KafkaCache\\BaseKafkaCacheConfig.cs",
               "RelativeDocumentMoniker": "GameStore.Models\\Configuration\\KafkaCache\\BaseKafkaCacheConfig.cs",

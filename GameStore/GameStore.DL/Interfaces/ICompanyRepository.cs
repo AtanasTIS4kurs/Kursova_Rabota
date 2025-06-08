@@ -1,7 +1,7 @@
 ﻿using GameStore.DL.Cache;
 using GameStore.Models.DTO;
 
-namespace GameStore.DL.Interface
+namespace GameStore.DL.Interfaces
 {
     public interface ICompanyRepository : ICacheRepository<string, Company>
     {

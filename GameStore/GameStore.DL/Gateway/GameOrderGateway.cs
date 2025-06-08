@@ -1,7 +1,9 @@
 ﻿using GameStore.DL.Interfaces;
 using GameStore.Models.DTO;
 using GameStore.Models.Responses;
+using Newtonsoft.Json;
 using RestSharp;
+using System.Diagnostics;
 using System.Text;
 
 namespace GameStore.DL.Gateway
@@ -16,17 +18,18 @@ namespace GameStore.DL.Gateway
 
             _client = new RestClient(options);
         }
-        public async Task<GameOrderResponse?> GetByName(string gameName)
+        public async Task<GameOrderResponse?> GetOrder(Game game)
         {
-            if (string.IsNullOrWhiteSpace(gameName))
-                return null;
+            var request = new RestRequest($"/api/OrderData", Method.Post);
 
-            var request = new RestRequest("api/order/by-name", Method.Post); 
-            request.AddJsonBody(gameName);
+            var json = JsonConvert.SerializeObject(game);
+            var data = new StringContent(json, Encoding.UTF8, "application/json");
+
+            request.AddBody(data);
 
             var response = await _client.ExecuteAsync<GameOrderResponse>(request);
 
-            return response.IsSuccessful ? response.Data : null;
+            return response.Data;
         }
     }
 }

@@ -1,6 +1,5 @@
 ﻿using GameStore.DL.Cache;
 using GameStore.DL.Gateway;
-using GameStore.DL.Interface;
 using GameStore.DL.Interfaces;
 using GameStore.DL.Kafka;
 using GameStore.DL.Kafka.KafkaCache;

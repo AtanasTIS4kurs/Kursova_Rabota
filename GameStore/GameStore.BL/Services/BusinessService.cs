@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 using GameStore.BL.Interfaces;
-using GameStore.DL.Interface;
+using GameStore.DL.Interfaces;
 using GameStore.Models.DTO;
 using GameStore.Models.Requests;
 using GameStore.Models.Responses;
@@ -15,12 +15,14 @@ namespace GameStore.BL.Services
     {
         private readonly IGameRepository _gameRepository;
         private readonly ICompanyRepository _companyRepository;
+        private readonly IGameOrderGateway _gameOrderGateway;
         private readonly IValidator<AddGameRequest> _addGameValidator;
 
-        public BusinessService(IGameRepository gameRepository, ICompanyRepository companyRepository, IValidator<AddGameRequest> addGameValidator)
+        public BusinessService(IGameRepository gameRepository, ICompanyRepository companyRepository, IGameOrderGateway gameOrderGateway, IValidator<AddGameRequest> addGameValidator)
         {
             _gameRepository = gameRepository;
             _companyRepository = companyRepository;
+            _gameOrderGateway = gameOrderGateway;
             _addGameValidator = addGameValidator;
         }
 
@@ -52,5 +54,15 @@ namespace GameStore.BL.Services
 
             return newGame;
         }
+        public async Task<GameWithOrder?> GetGameOrder(string id)
+        {
+            var game = await _gameRepository.GetById(id);
+            if (game == null) return null;
+
+            var orderResponse = await _gameOrderGateway.GetOrder(game);
+
+            return new GameWithOrder { Game = game, OrderId = orderResponse };
+        }
+
     }
 }

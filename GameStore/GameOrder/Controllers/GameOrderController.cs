@@ -1,31 +1,27 @@
-using GameStore.DL.Interfaces;
+using GameStore.Models.DTO;
 using GameStore.Models.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GameOrder.Controllers
 {
-        [ApiController]
-        [Route("api/[controller]")]
-        public class ExternalOrderController : ControllerBase
-        {
-            private readonly IGameOrderGateway _gameOrderGateway;
+    [ApiController]
+    [Route("api/[controller]")]
+    public class GameOrderController : ControllerBase
+    {
 
-            public ExternalOrderController(IGameOrderGateway orderGateway)
+        [HttpPost]
+        public ActionResult<GameOrderResponse> OrderGame([FromBody] Game game)
+        {
+            var orderId = $"ORD-{Guid.NewGuid().ToString().Substring(0, 8).ToUpper()}";
+
+            Console.WriteLine($"Received order for: {game.Name} from {game.Company}");
+
+            var response = new GameOrderResponse
             {
-                _gameOrderGateway = orderGateway;
-            }
-        [HttpPost("Order")]
-        public async Task<ActionResult<GameOrderResponse>> GetGameOrderByName([FromBody] string gameName)
-        {
-            if (string.IsNullOrWhiteSpace(gameName))
-                return BadRequest("Game name is required.");
+                Order = orderId
+            };
 
-            var result = await _gameOrderGateway.GetByName(gameName);
-
-            if (result == null)
-                return NotFound($"Game '{gameName}' is not available.");
-
-            return Ok(result);
+            return Ok(response);
         }
     }
 

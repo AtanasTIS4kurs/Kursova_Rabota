@@ -8,5 +8,6 @@ namespace GameStore.BL.Interfaces
     {
         Task<GamesFromCompany> GetGamesByCompanyName(string companyName);
         Task<Game> AddGame(AddGameRequest request);
+        Task<GameWithOrder?> GetGameOrder(string id);
     }
 }

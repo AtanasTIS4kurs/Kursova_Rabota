@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using GameStore.DL.Interface;
+using GameStore.DL.Interfaces;
 using GameStore.Models.Requests;
 
 namespace GameStore.Validator

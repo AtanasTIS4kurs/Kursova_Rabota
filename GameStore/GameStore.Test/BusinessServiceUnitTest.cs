@@ -1,17 +1,18 @@
 using Moq;
-using GameStore.DL.Interface;
 using GameStore.Models.DTO;
 using GameStore.Models.Responses;
 using GameStore.BL.Services;
 using FluentValidation.Results;
 using GameStore.Models.Requests;
 using FluentValidation;
+using GameStore.DL.Interfaces;
 namespace GameStore.Test
 {
     public class BusinessServiceUnitTest
     {
         private readonly Mock<IGameRepository> _gameRepositoryMock;
         private readonly Mock<ICompanyRepository> _companyRepositoryMock;
+        private readonly Mock<IGameOrderGateway> _gameOrderGatewayMock; 
         private readonly Mock<IValidator<AddGameRequest>> _mockValidator;
         private readonly BusinessService _businessService;
 
@@ -68,8 +69,9 @@ namespace GameStore.Test
         {
             _gameRepositoryMock = new Mock<IGameRepository>();
             _companyRepositoryMock = new Mock<ICompanyRepository>();
+            _gameOrderGatewayMock = new Mock<IGameOrderGateway>();
             _mockValidator = new Mock<IValidator<AddGameRequest>>();
-            _businessService = new BusinessService(_gameRepositoryMock.Object, _companyRepositoryMock.Object, _mockValidator.Object);
+            _businessService = new BusinessService(_gameRepositoryMock.Object, _companyRepositoryMock.Object, _gameOrderGatewayMock.Object, _mockValidator.Object);
         }
         [Fact]
         public async Task GetGamesByCompanyName_OK()

@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Options;
-using GameStore.DL.Interface;
+using GameStore.DL.Interfaces;
 using GameStore.Models.Configuration;
 using GameStore.Models.DTO;
 using MongoDB.Driver;

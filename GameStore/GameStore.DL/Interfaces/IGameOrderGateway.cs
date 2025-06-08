@@ -5,7 +5,6 @@ namespace GameStore.DL.Interfaces
 {
     public interface IGameOrderGateway
     {
-        Task<GameOrderResponse?> GetByName(string gameName);
-        //Task<GameOrder?> GetByName(Game game);
+        Task<GameOrderResponse?> GetOrder(Game game);
     }
 }

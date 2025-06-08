@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "GameStore.Controllers.BusinessController",
+    "Method": "GetGameOrder",
+    "RelativePath": "Business/GetGameOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameStore.Controllers.BusinessController",
     "Method": "GetGamesByCompany",
     "RelativePath": "Business/GetGamesByCompany",
     "HttpMethod": "GET",

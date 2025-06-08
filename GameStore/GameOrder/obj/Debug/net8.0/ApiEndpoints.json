@@ -1,16 +1,16 @@
 [
   {
-    "ContainingType": "GameOrder.Controllers.ExternalOrderController",
-    "Method": "GetGameOrderByName",
-    "RelativePath": "api/ExternalOrder/Order",
-    "HttpMethod": "GET",
+    "ContainingType": "GameOrder.Controllers.GameOrderController",
+    "Method": "OrderGame",
+    "RelativePath": "api/GameOrder",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "gameName",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "game",
+        "Type": "GameStore.Models.DTO.Game",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
